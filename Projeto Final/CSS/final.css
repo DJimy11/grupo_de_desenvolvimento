@@ -1,0 +1,230 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	background-color: black;
+	background-image: url(../imagem/baner.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+    background-position-x: center;
+    background-position-y: top;
+}
+#navegacao{
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+#header{
+	top: 0;
+	left: 0;
+	position: fixed;
+    width: 100%;
+    background: black;
+ 
+}
+#header .col3 .logo{
+	position: relative;
+	top: 5px;
+    left: 10px;
+	height: 70px;
+}
+#header .col9 nav{
+	position: absolute;
+	display: inline;
+	height: 80px;
+    right: 70px;
+    margin-left: auto;
+    clear: both;
+}
+#s1{
+	margin-top: 150px;
+}
+#s2{
+	margin-top: 50px
+}
+#s1 .jogos{
+	margin-top: 350px;
+}
+#s1 .servicos{
+	margin-top: 350px;
+}
+a:link, a:active, a:visited{
+	color: #0000CD;
+	text-decoration: none;
+}
+a:hover{
+	color: red;
+	text-decoration: none;
+}
+/* grid 960px*/
+.linha{
+	width: 960px;
+	margin: 0 auto;
+	overflow: auto;
+	padding: 5px 0;
+}
+.coluna{
+	padding: 0 10px;
+	float: left;
+}
+.col1{
+	width: 60px;
+}
+.col2{
+	width: 140px;
+}
+.col3{
+	width: 220px;
+}
+.col4{
+	width: 300px;
+}
+.col5{
+	width: 380px;
+}
+.col6{
+	width: 460px;
+}
+.col7{
+	width: 540px;
+}
+.col8{
+	width: 620px;
+}
+.col9{
+	width: 700px;
+}
+.col10{
+	width: 780px;
+}
+.col11{
+	width: 860px;
+}
+.col12{
+	width: 940px;
+}
+/* estilos reutilizaveis */
+.sem-padding{
+	padding: 0 !important;
+}
+.sem-margin{
+	margin: 0 !important;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: 500;
+	margin: 15px 0 10px 0;
+}
+ul li, ol li{
+	margin-bottom: 5px;
+}
+ul.inline li, ol.inline li{
+	display: inline;
+	margin-right: 50px;
+	right: 60px;
+}
+ul.inline li:last-child, ol.inline li:last-child{
+	margin-right: 0;
+	text-align: right;
+}
+ul.sem-marcador, ol.sem-marcador{
+	list-style: none;
+}
+a.botao, input.botao{
+	background: #00008B;
+	padding: 5px 10px;
+	border-radius: 3px;
+	color: white;
+	cursor: pointer;
+	margin: 5px 0;
+	display: inline-block;
+	border: none;
+}
+a.botao:hover, input.botao:hover{
+	background: #000000;
+	text-decoration: none;
+}
+.discord a{
+	width: auto;
+	height: auto;
+	float: right;
+	font-size: 0;
+	margin-top: 40px;
+	clear: both;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	clear: both;
+}
+.conteudo-extra{
+	background: #3366cc;
+}
+.pes{
+	background: #333;
+	color: #999999;
+	padding: 10px 0;
+	width: 100%;
+	text-align: center;
+	font-weight: 100;
+}
+.menu{
+	text-transform: uppercase;
+	text-align: right;
+	margin-top: 25px;
+}
+.menu li a{
+	padding: 5px 10px;
+	border-radius: 3px;
+	color: white;
+}
+.menu li a:hover{
+	text-decoration: none;
+	background: #003366;
+	color: white;
+}
+.lancamentos{
+	display: table-cell;
+	overflow: hidden;
+}
+.lancamentos img{
+	display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 300px;
+	height: 160px;
+	left: 0px;
+	margin-left: 10px;
+}
+.lancamentos p h4{
+	float: inherit;
+}
+.afiliado label{
+	display: block;
+	font-size: 13px;
+	font-weight: 300;
+}
+.afiliado input, afiliado textarea{
+	display: block;
+	margin-bottom: 15px;
+	padding: 5px 5px;
+	width: 96%;
+}
+.afiliado input.botao{
+	width: auto;
+}
+.dsv img{
+	width: 180px;
+	height: 190px;
+	float: left;
+}
+.dsv p{
+	float: left;
+	padding: 20px 5px;
+	margin-left: 20px;
+}
+ul.detalhes{
+	list-style: none;
+}
+.afiliado input{
+	width: auto;
+}
